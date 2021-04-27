@@ -1,0 +1,31 @@
+body {
+    height: 100%;
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/48/01/colorful-polygonal-background-abstract-form-vector-23254801.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div {
+    margin-left: 350px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.952);
+    
+}
+label {
+    margin-right: 10px;
+}
+
+input, #img, select {
+    border-radius: 3px;
+    padding: 5px;
+    margin: 12px;
+   
+}
+ #name, #email, #img, #male, #female, select {
+    margin-left: 60px;
+}
+#date {
+    margin-left: 70px;
+}
+#submit, #reset {
+    margin-left: 70px;
+}

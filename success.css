@@ -1,0 +1,10 @@
+body {
+    height: 100%;
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/48/01/colorful-polygonal-background-abstract-form-vector-23254801.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    margin: 200px;
+}

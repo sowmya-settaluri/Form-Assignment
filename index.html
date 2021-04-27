@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div>
+        <form action="success.html">
+        <h1><u>Registration Form</u></h1>
+        <label for="name">Name:</label>
+         <input type="text" placeholder="First Name" id="name" required>
+               <input type="text" placeholder="Last Name" id="name" required>
+        <br>
+        
+        <label>Gender:</label>
+        <label for="male"></label>
+        <input type="radio" name="Gender" id="male" value="male" required>Male
+        <label for="female"></label>
+        <input type="radio"  name="Gender" id="female" value="female" required>Female
+        
+        <br>
+        <label for="email">Email:</label>
+         <input type="email" placeholder="eg: name@gmail.com" id="email" required>
+        <br>
+        <label for="date">Date:</label>
+          <input type="date" id="date">
+        <br>
+        <label for="num"> Phone number:</label>
+        <input type="text" placeholder="1234567890" id="num" required>
+        <br>
+        <label for="img">Image:</label>
+        <input type="file" id="img">
+        <br>
+        <label for="colleges">College:</label>
+    <select id="colleges" name="college" required>
+    <option value="Andhra University">Andhra University</option>
+    <option value="Githam">Githam</option>
+    <option value="Gayatri">Gayatri</option>
+    <option value="Other">Other</option>
+  </select>
+  <br>
+  <label for="submit"></label>
+        <input type="submit" id="submit">
+        <label for="reset"></label>
+        <input type="reset" id="reset">
+  
+  
+  
+    </form>
+    
+    </div>
+    
+</body>
+</html>
